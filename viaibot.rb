@@ -1,28 +1,28 @@
 class Viaibot < Formula
   desc "VIAIBot CLI — AI research, OSINT, and investigation tools"
   homepage "https://github.com/VantageI/viaibot-api"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://tap-ozoxoz.t3.tigrisfiles.io/viaibot_0.1.0_darwin_arm64"
-      sha256 "5d1008e84272b53307563db19da216a404523a6325c1fa448e19c0b84fc9daa4"
+      url "https://tap-ozoxoz.t3.tigrisfiles.io/viaibot_0.2.0_darwin_arm64"
+      sha256 "4d3a1a27c3dbdb9a94e30a3486257a493510ebcbaacc1688a468ca71f77142f7"
     end
     on_intel do
-      url "https://tap-ozoxoz.t3.tigrisfiles.io/viaibot_0.1.0_darwin_amd64"
-      sha256 "d7c4a292b353f9a5bf8da48b9ba1724f7f71bc33566f5387fa660cad926fecd7"
+      url "https://tap-ozoxoz.t3.tigrisfiles.io/viaibot_0.2.0_darwin_amd64"
+      sha256 "24404296a35d790ab72494940a365faa8c40ead1aa16805ff4608b79f59713bc"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://tap-ozoxoz.t3.tigrisfiles.io/viaibot_0.1.0_linux_arm64"
-      sha256 "7dad46f57593a709e55b00cdc13ddf3c3ba097d2bb6228221e79dd7dbf5fedc6"
+      url "https://tap-ozoxoz.t3.tigrisfiles.io/viaibot_0.2.0_linux_arm64"
+      sha256 "de971e99114fdb528a205be6fd70d9960da4522247d6e2a35923cee8e55687e2"
     end
     on_intel do
-      url "https://tap-ozoxoz.t3.tigrisfiles.io/viaibot_0.1.0_linux_amd64"
-      sha256 "f19957be164c2cedf0e20f6fcee895e6b92b79048c10484e2620c507605f3890"
+      url "https://tap-ozoxoz.t3.tigrisfiles.io/viaibot_0.2.0_linux_amd64"
+      sha256 "755db9aa7ba248320fa13f4fe1ef54c8f2dcfa33ad68cc7ca0914a4861d84a2a"
     end
   end
 
