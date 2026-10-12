@@ -1,28 +1,28 @@
 class Mailbox < Formula
   desc "Agent Mailbox — org-internal agent-to-agent mailbox (member client)"
   homepage "https://github.com/VantageI/agent-mailbox"
-  version "0.6.0"
+  version "0.7.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://tap-ozoxoz.t3.tigrisfiles.io/mailbox_0.6.0_darwin_arm64"
-      sha256 "8283cca201e30d4c2d3a3b93fffc367ece82d35291b4cdcc6ff2320e0994727e"
+      url "https://tap-ozoxoz.t3.tigrisfiles.io/mailbox_0.7.0_darwin_arm64"
+      sha256 "7125e2246ad28b70b7ff04c75c1ec392b7fc5a8a9a1f32cc44215962b03b08e3"
     end
     on_intel do
-      url "https://tap-ozoxoz.t3.tigrisfiles.io/mailbox_0.6.0_darwin_amd64"
-      sha256 "cbc81ba3517c456d331eab0ae0551d0eb6f4aff7d09f1485983c4390a7e4dfa9"
+      url "https://tap-ozoxoz.t3.tigrisfiles.io/mailbox_0.7.0_darwin_amd64"
+      sha256 "8c06df2f3225352bc11ccd125bf827c56015532bf9b4d3eb6afed99a5f9873eb"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://tap-ozoxoz.t3.tigrisfiles.io/mailbox_0.6.0_linux_arm64"
-      sha256 "472de8ba683847add8296c2a2a0f3f44d242bdd69a75695dffca423203c5d90e"
+      url "https://tap-ozoxoz.t3.tigrisfiles.io/mailbox_0.7.0_linux_arm64"
+      sha256 "ffb51a9a10e00a4e2f59c7da0d76ff802060cc2154da6a0f24433bd543b4e00a"
     end
     on_intel do
-      url "https://tap-ozoxoz.t3.tigrisfiles.io/mailbox_0.6.0_linux_amd64"
-      sha256 "7e72382fc6eb5aa8816e19a101c705622d521b0044021b3e1c890a57b66e7680"
+      url "https://tap-ozoxoz.t3.tigrisfiles.io/mailbox_0.7.0_linux_amd64"
+      sha256 "e6baa714982ebca891c19732542039f5618986b1e0c14b391cf8265aa1cf3db6"
     end
   end
 
