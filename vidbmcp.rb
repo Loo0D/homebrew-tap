@@ -1,28 +1,28 @@
 class Vidbmcp < Formula
   desc "VI DB MCP server — Vantage Intelligence source-catalog tools"
   homepage "https://github.com/VantageI/vidbmcp"
-  version "0.1.2"
+  version "0.1.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://tap-ozoxoz.t3.tigrisfiles.io/vidbmcp_0.1.2_darwin_arm64"
-      sha256 "8515120d4ed1f402824beba4f099be0633e30b1bd0a56a6a04cff507be2d7abd"
+      url "https://tap-ozoxoz.t3.tigrisfiles.io/vidbmcp_0.1.3_darwin_arm64"
+      sha256 "f3b4099d27e97e258c605d97f6f90b2dcaf3acd07e462f6e944d170295943baa"
     end
     on_intel do
-      url "https://tap-ozoxoz.t3.tigrisfiles.io/vidbmcp_0.1.2_darwin_amd64"
-      sha256 "c52d49b55a0ef15b9c3feb18f11512da96601fe761f5a4cebaa6d4440d2356a5"
+      url "https://tap-ozoxoz.t3.tigrisfiles.io/vidbmcp_0.1.3_darwin_amd64"
+      sha256 "d4421ca4b23d797519df505a6082a82c1c31fab323b1c9909272e1d2d0b09a5d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://tap-ozoxoz.t3.tigrisfiles.io/vidbmcp_0.1.2_linux_arm64"
-      sha256 "52884ca1592def4cca755b510e61550eb78b2ff2f7f981dde3c2f25b564acb51"
+      url "https://tap-ozoxoz.t3.tigrisfiles.io/vidbmcp_0.1.3_linux_arm64"
+      sha256 "2c2dcaa1e1f99465d854e68b6c4e57dc59f860655076260482acd83792ff50f0"
     end
     on_intel do
-      url "https://tap-ozoxoz.t3.tigrisfiles.io/vidbmcp_0.1.2_linux_amd64"
-      sha256 "21bb5f506af14cfa20439a3e6bea79dad7ae6e628ce82ae1d36bdd1babac5cc2"
+      url "https://tap-ozoxoz.t3.tigrisfiles.io/vidbmcp_0.1.3_linux_amd64"
+      sha256 "d324670f4d7c2b33075a554fbe2be3cc8c7f32cf855f13e682e723f6d6c01a44"
     end
   end
 
